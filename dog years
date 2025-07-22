@@ -1,0 +1,9 @@
+
+
+def dog_years(name, age):
+    x = age * 7
+    return name + ' is ' + str(x) + ' years old in human years.' 
+
+print(dog_years('Gin', 4))
+
+      
