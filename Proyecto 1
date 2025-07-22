@@ -1,0 +1,40 @@
+# Área de las figuras básicas
+
+import math
+
+print('==================')
+print('Calculadora de Áreas 📐')
+print('==================')
+print('')
+print('1) Cuadrado')
+print('2) Rectángulo')
+print('3) Triángulo')
+print('4) Círculo')
+print('')
+figura = int(input('Escoge una figura: '))
+print('')
+
+if figura == 1:
+  lado = int(input('Introduce la medida de uno de sus lados: '))
+  area = lado ** 2
+  print('')
+  print('El área de tu figura es: ' + str(area))
+elif figura == 2:
+  base = int(input('Introduce la medida de su base: '))
+  altura = int(input('Introduce la medida de su altura: '))
+  area = base * altura
+  print('')
+  print('El área de tu figura es: ' + str(area))
+elif figura == 3:
+  base = int(input('Introduce la medida de su base: '))
+  altura = int(input('Introduce la medida de su altura: '))
+  area = (base * altura) / 2
+  print('')
+  print('El área de tu figura es: ' + str(area))
+elif figura == 4:
+  radio = int(input('Introduce la medida de su radio: '))
+  area = math.pi * (radio ** 2)
+  print('')
+  print('El área de tu figura es: ' + str(area))
+else:
+  print('Introduce una figura válida')
