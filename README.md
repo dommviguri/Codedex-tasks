@@ -1,2 +1,4 @@
 # codedex
-my codedex tasks
+## my codedex tasks
+
+I've been practicing Python through Codedex, and this is all the activities I've done.
